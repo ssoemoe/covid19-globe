@@ -6,3 +6,5 @@ Almost every developer is creating its frontend-side COVID 19 tracker, and I wou
 In this frontend web app, I use Gio.js, Three.js, JQuery and COVID-19 API by Gramzivi
 
 Try it out here: [https://ssoemoe.github.io/covid19-globe/covid19.html](https://ssoemoe.github.io/covid19-globe/covid19.html)
+
+![Demo](demo/demo.png)
