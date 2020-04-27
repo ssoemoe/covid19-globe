@@ -1,4 +1,5 @@
 $(function () {
+    getNews();
     getCountries();
     getLatestData("MM");
     // call the init() API to show the IO globe in the browser

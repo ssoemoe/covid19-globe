@@ -1,5 +1,5 @@
 var countries = [];
-var selectedCountry = { name: "", alpha2code: "" };
+var selectedCountry = { name: "Myanmar", alpha2code: "MM" };
 
 var settings = {
     "async": true,
