@@ -12,15 +12,41 @@
     <title>COVID19 Globe Tracker</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet"> -->
     <script src="./js/jquery.js"></script>
+    <script src="./js/jquery.autocomplete.min.js"></script>
+    <script src="./js/three.min.js"></script>
+    <script src="./js/gio.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./stylesheets/covid19.css">
 </head>
 
 <body>
     <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-    <!-- <script src="./js/covid19-ajax.js"></script> -->
+    <div id="headline-news">
+        <p>Breaking News!</p>
+    </div>
+    <div id="filter">
+        <label>
+            Search for a country:
+            <input type="text" id="countryName" value="Myanmar">
+        </label>
+        <button id="search-btn">View</button>
+    </div>
+    <div id="globalArea"></div>
+    <div id="summary-live-stats">
+    </div>
+    <!-- <div id="stats-table">
+        <table>
+
+        </table>
+    </div> -->
+    <script src="./js/globe.js"></script>
+    <script src="./js/covid19-ajax.js"></script>
+    <script src="./js/index.js"></script>
 </body>
 
 </html>

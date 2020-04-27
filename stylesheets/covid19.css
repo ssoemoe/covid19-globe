@@ -1,0 +1,50 @@
+body {
+    margin: 0px;
+    background-color: black;
+    font-family: 'Roboto Mono', monospace;
+    color: #ecfcfb;
+}
+
+#headline-news {
+    text-align: center;
+    background-color: red;
+    top: 0;
+}
+
+#filter {
+    text-align: center;
+}
+
+#search-btn {
+    border-radius: 4px;
+    background-color: red;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+}
+
+input[type="text"] {
+    font-size: 16px;
+    border-radius: 5px;
+    font-family: 'Roboto Mono', monospace;
+    padding: 3px;
+}
+
+#globalArea {
+    height: 650px;
+    width: 100%;
+}
+
+#summary-live-stats {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 280px;
+    margin-right: 250px;
+    z-index: 10;
+    padding: 5px 20px;
+}
+
+#stats-table {
+    text-align: center;
+}
