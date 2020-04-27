@@ -7,4 +7,4 @@ In this frontend web app, I use Gio.js, Three.js, JQuery and COVID-19 API by Gra
 
 Try it out here: [https://ssoemoe.github.io/covid19-globe/covid19.html](https://ssoemoe.github.io/covid19-globe/covid19.html)
 
-![Demo](demo/demo.png)
+![Demo](demo/demo.gif)
